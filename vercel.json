@@ -1,14 +1,109 @@
 {
-  "functions": {
-    "api/server.js": {
-      "memory": 1024,
-      "includeFiles": "db.json"
-    }
-  },
-  "rewrites": [
+  "expenses": [
     {
-      "source": "/(.*)",
-      "destination": "api/server.js"
+      "id": 1,
+      "category": "Basic",
+      "description": "Grocery shopping",
+      "amount": 10.0,
+      "date": "2022-02-18"
+    },
+    {
+      "id": 2,
+      "category": "Leisure",
+      "description": "Movie night with friends",
+      "amount": 20.0,
+      "date": "2022-02-19"
+    },
+    {
+      "id": 3,
+      "category": "Savings",
+      "description": "Contributed to emergency fund",
+      "amount": 15.0,
+      "date": "2022-02-20"
+    },
+    {
+      "id": 4,
+      "category": "Basic",
+      "description": "Monthly rent payment",
+      "amount": 12.0,
+      "date": "2022-02-21"
+    },
+    {
+      "id": 5,
+      "category": "Leisure",
+      "description": "Dinner at a restaurant",
+      "amount": 25.0,
+      "date": "2022-02-22"
+    },
+    {
+      "id": 6,
+      "category": "Savings",
+      "description": "Investment in retirement account",
+      "amount": 18.0,
+      "date": "2022-02-23"
+    },
+    {
+      "id": 7,
+      "category": "Basic",
+      "description": "Gas for the car",
+      "amount": 30.0,
+      "date": "2022-02-24"
+    },
+    {
+      "id": 8,
+      "category": "Leisure",
+      "description": "Concert tickets",
+      "amount": 40.0,
+      "date": "2022-02-25"
+    },
+    {
+      "id": 9,
+      "category": "Savings",
+      "description": "Additional contribution to savings",
+      "amount": 22.0,
+      "date": "2022-02-26"
+    },
+    {
+      "id": 10,
+      "category": "Basic",
+      "description": "Internet and cable bill",
+      "amount": 45.0,
+      "date": "2022-02-27"
+    },
+    {
+      "id": 11,
+      "category": "Leisure",
+      "description": "Weekend getaway",
+      "amount": 60.0,
+      "date": "2022-02-28"
+    },
+    {
+      "id": 12,
+      "category": "Savings",
+      "description": "Setting aside money for future goals",
+      "amount": 35.0,
+      "date": "2022-02-29"
+    },
+    {
+      "id": 13,
+      "category": "Basic",
+      "description": "Pharmacy expenses",
+      "amount": 15.0,
+      "date": "2022-03-01"
+    },
+    {
+      "id": 14,
+      "category": "Leisure",
+      "description": "Sports event tickets",
+      "amount": 50.0,
+      "date": "2022-03-02"
+    },
+    {
+      "id": 15,
+      "category": "Savings",
+      "description": "Contributed to investment portfolio",
+      "amount": 28.0,
+      "date": "2022-03-03"
     }
   ]
 }
